@@ -1,6 +1,6 @@
 ﻿using System;
 using Xunit.Abstractions;
-using TestHostSourceInformationProvider = Microsoft.Dnx.TestAdapter.ISourceInformationProvider;
+using TestHostSourceInformationProvider = Microsoft.Dnx.Testing.Abstractions.ISourceInformationProvider;
 
 namespace Xunit.Runner.Dnx
 {

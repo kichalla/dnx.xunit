@@ -9,9 +9,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Microsoft.Dnx.Runtime;
-using Microsoft.Dnx.TestAdapter;
+using Microsoft.Dnx.Testing.Abstractions;
 using Xunit.Abstractions;
-using VsTestCase = Microsoft.Dnx.TestAdapter.Test;
+using VsTestCase = Microsoft.Dnx.Testing.Abstractions.Test;
 
 namespace Xunit.Runner.Dnx
 {

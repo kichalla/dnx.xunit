@@ -13,18 +13,23 @@
     "frameworks": {
         "dnx451": {
             "frameworkAssemblies": {
-                "System.Threading": ""
+                "System.Collections": "",
+                "System.Threading": "",
+                "System.Xml": "",
+                "System.Xml.Linq": "",
+                "System.Xml.XDocument": ""
             }
         },
         "dnxcore50": {
             "dependencies": {
-                "System.Security.Cryptography.Hashing.Algorithms": "4.0.0-beta-*"
+                "System.Security.Cryptography.Hashing.Algorithms": "4.0.0-beta-*",
+                "System.Xml.XDocument": "4.0.11-beta-*"
             }
         }
     },
     "dependencies": {
         "Microsoft.Dnx.Runtime.Abstractions": "1.0.0-beta8-*",
-        "Microsoft.Dnx.TestAdapter": "1.0.0-beta8-*",
+        "Microsoft.Dnx.Testing.Abstractions": "1.0.0-beta8-*",
         "Microsoft.Dnx.TestHost": "1.0.0-beta8-*",
         "xunit.runner.utility": "2.1.0-rc2-*",
         "xunit.runner.reporters": "2.1.0-rc2-*"
